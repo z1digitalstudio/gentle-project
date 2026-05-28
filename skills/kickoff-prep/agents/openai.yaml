@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kickoff Prep"
+  short_description: "Prepara el kickoff con agenda y riesgos"
+  default_prompt: "Usa $kickoff-prep para convertir el Opportunity Brief en un Kick-off Meeting Prep con agenda, preguntas críticas y riesgos a validar."

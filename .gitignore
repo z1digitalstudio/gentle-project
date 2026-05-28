@@ -1,0 +1,32 @@
+# Skill registry cache (index is committed, cache is local)
+.atl/.skill-registry.cache.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / local agent config
+.idea/
+.vscode/
+.claude/
+.pi/
+*.swp
+# Local Pi runtime state
+.atl/
+
+# Local memory / agent state
+.engram/
+
+# Template authoring scratch
+/tmp/
+/proposal/
+proposal.md
+estrategia-discovery.md
+TEMPLATE-PUBLISH-CHECKLIST.md
+ENGRAM-BACKEND-PLAN.md
+
+# Archived local skills
+skills/.archive/
+
+# obsidian
+.obsidian/

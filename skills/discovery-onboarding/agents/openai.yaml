@@ -1,0 +1,4 @@
+interface:
+  display_name: "Discovery Onboarding"
+  short_description: "Convierte onboarding en un Opportunity Brief"
+  default_prompt: "Usa $discovery-onboarding para convertir materiales de onboarding en un Opportunity Brief y señalar huecos antes del kickoff."

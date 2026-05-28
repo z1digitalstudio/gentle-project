@@ -1,0 +1,75 @@
+[‹ AI Playbook](/ai-playbook/README.md)
+[‹ Discovery Phase](/ai-playbook/guides/discovery/README.md)
+
+# Subphase #2 — Design Research
+
+## Objetivo
+
+Entender usuarios, pains, señales de mercado, contexto competitivo y oportunidades de producto antes de priorizar roadmap.
+
+La subfase existe para separar:
+- evidencia
+- señales prometedoras
+- supuestos
+- contradicciones que todavía necesitan validación
+
+---
+
+## Skill principal
+
+- `design-research`
+
+---
+
+## Inputs típicos
+
+### Mínimos
+- `docs/PROJECT-SUMMARY.md`
+- `product/artifacts/Opportunity-Brief.md` o equivalente
+- `product/artifacts/Kickoff-Closeout-Summary.md` o evidencia usable del kickoff
+
+### Recomendados
+- `management/RISKS.md`
+- entrevistas o research notes
+- benchmark competitivo
+- links a producto / prototipo
+- datos comerciales o de soporte
+- `Brand Personality` externo `solo si el proyecto tiene componente de diseño`
+
+---
+
+## Outputs y artefactos
+
+### Canónicos
+- `product/RESEARCH.md`
+- actualización de `docs/PROJECT-SUMMARY.md`
+- actualización de `management/RISKS.md` si aparecen riesgos nuevos
+
+### Opcionales
+- `product/artifacts/Discovery-Insights.md`
+- `product/artifacts/Personas.md`
+- `product/artifacts/User-Journeys.md`
+
+`Brand Personality` no es output de esta subfase. Si existe, llega como input externo del cliente.
+
+---
+
+## Qué debería dejar resuelto
+
+- contexto del problema mejor definido
+- señales de usuario y pains principales
+- contexto de mercado / competencia más claro
+- evidencia vs supuestos diferenciados
+- oportunidades visibles para priorizar
+- preguntas abiertas importantes explicitadas
+
+---
+
+## Criterio de cierre de la subfase
+
+Design Research está cerrada cuando:
+- existe `product/RESEARCH.md`
+- evidencia, señales y supuestos están separados
+- hay oportunidades suficientemente claras para priorizar
+- `docs/PROJECT-SUMMARY.md` quedó actualizado si el framing mejoró
+- `roadmap-definition` puede empezar sin reinventar research

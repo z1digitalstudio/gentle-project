@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kickoff Closeout"
+  short_description: "Aterriza el kickoff en memoria viva"
+  default_prompt: "Usa $kickoff-closeout para convertir notas y transcripción del kickoff en un resumen estructurado y propuestas de actualización para PROJECT-SUMMARY, RISKS y ROADMAP."
