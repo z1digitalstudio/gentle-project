@@ -2,8 +2,6 @@
 
 Guía humana para entender cómo usar este repo template, sus fases y sus skills.
 
-> Nota: la memoria local del agente (`.engram/`) no forma parte de la template publicada. Cada equipo debería mantener y sincronizar su propia memoria fuera del contenido versionado del repo.
-
 ## Para quién es este playbook
 
 Este playbook es para los humanos del equipo: Product Managers, Product Designers y Developers. Está pensado para quienes corren o participan del proceso de discovery y diseño, y quieren entender qué fases existen, qué hacen los skills de IA, qué artefactos producen y cómo navegar el proceso de punta a punta.
