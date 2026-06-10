@@ -24,12 +24,12 @@ Su objetivo es dejar una base suficientemente clara para:
 
 ## Estructura de la fase
 
-Discovery se divide en cuatro subfases canónicas:
-
-1. [**Onboarding & Kickoff**](/ai-playbook/guides/discovery/phase-docs/onboarding-kickoff-subphase.md)
-2. [**Design Research**](/ai-playbook/guides/discovery/phase-docs/design-research-subphase.md)
-3. [**Roadmap Definition**](/ai-playbook/guides/discovery/phase-docs/roadmap-definition-subphase.md)
-4. [**Scope Definition**](/ai-playbook/guides/discovery/phase-docs/scope-definition-subphase.md)
+| # | Subfase | Objetivo | Documentación |
+|---|---|---|---|
+| 1 | **Onboarding & Kickoff** | Llegar al kickoff con framing suficiente y salir con contexto operativo capturado | [Ver doc](/ai-playbook/guides/discovery/phase-docs/onboarding-kickoff-subphase.md) |
+| 2 | **Design Research** | Convertir contexto usable en evidencia, señales e insights diferenciados | [Ver doc](/ai-playbook/guides/discovery/phase-docs/design-research-subphase.md) |
+| 3 | **Roadmap Definition** | Traducir research en prioridades, MVP y secuencia de producto | [Ver doc](/ai-playbook/guides/discovery/phase-docs/roadmap-definition-subphase.md) |
+| 4 | **Scope Definition** | Bajar el roadmap a PRD y user stories accionables para diseño y desarrollo | [Ver doc](/ai-playbook/guides/discovery/phase-docs/scope-definition-subphase.md) |
 
 ---
 
