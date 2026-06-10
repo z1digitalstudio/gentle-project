@@ -8,26 +8,49 @@
 Llegar al kickoff con framing suficiente y salir de él con contexto operativo mejorado.
 
 Esta subfase no se mide por cuántos documentos genera, sino por si el equipo logra:
-- entender mejor el encargo
-- exponer riesgos y huecos importantes
-- preparar una conversación útil
-- aterrizar lo aprendido en memoria canónica del proyecto
+- Entender mejor el encargo
+- Exponer riesgos y huecos importantes
+- Preparar una conversación útil
+- Aterrizar lo aprendido en memoria canónica del proyecto
+
+---
+
+## Cómo elegir el flujo
+
+### ¿El kickoff ya ocurrió?
+
+- **Sí, y hay evidencia usable** (notas, transcript, decisiones) → usar flujo tardío
+- **Sí, y el contexto ya quedó claro** → pasar directo a `design-research`
+
+### ¿El kickoff todavía no ocurrió?
+
+| Situación | Flujo |
+|---|---|
+| Hay un Opportunity Brief claro y vigente | Flujo abreviado |
+| Hay un brief pero está desactualizado, incompleto o contradictorio | Flujo completo |
+| No hay brief — contexto disperso en notas, mails, decks | Flujo completo |
 
 ---
 
 ## Secuencias válidas
 
 ### Flujo completo
-1. `discovery-onboarding`
-2. `kickoff-prep`
-3. `kickoff-closeout`
+**Cuándo:** el contexto está disperso y el kickoff todavía no ocurrió.
+
+1. `discovery-onboarding` — consolida notas, mails y decks en framing usable
+2. `kickoff-prep` — convierte ese framing en agenda y preguntas estratégicas
+3. `kickoff-closeout` — captura lo aprendido en memoria canónica
 
 ### Flujo abreviado
-1. `kickoff-prep`
-2. `kickoff-closeout`
+**Cuándo:** ya existe un Opportunity Brief claro y vigente, pero el kickoff todavía no ocurrió.
+
+1. `kickoff-prep` — el framing ya está, se prepara la reunión directamente
+2. `kickoff-closeout` — captura decisiones y próximos pasos
 
 ### Flujo tardío
-1. `kickoff-closeout`
+**Cuándo:** el kickoff ya ocurrió y hay evidencia usable (notas, transcript, decisiones).
+
+1. `kickoff-closeout` — procesa lo que quedó registrado y lo convierte en contexto operativo
 
 ---
 
@@ -57,37 +80,20 @@ Esta subfase no se mide por cuántos documentos genera, sino por si el equipo lo
 
 ---
 
-## Regla de entrada
+## Qué debería dejar resuelto
 
-### Si el kickoff ya ocurrió
-- usar `kickoff-closeout` si hay evidencia usable
-- o pasar a `design-research` si el contexto ya quedó suficientemente claro
-
-### Si el kickoff no ocurrió
-- si el framing ya es usable → `kickoff-prep`
-- si el framing todavía es débil o disperso → `discovery-onboarding`
-
----
-
-## Qué hace cada skill
-
-### `discovery-onboarding`
-Normaliza contexto disperso y deja framing usable.
-No debería forzar un `Opportunity Brief` si ya existe framing suficiente.
-
-### `kickoff-prep`
-Convierte framing usable en agenda, preguntas estratégicas, riesgos y decisiones esperadas.
-
-### `kickoff-closeout`
-Convierte notas, transcript o decisiones del kickoff en memoria operativa confiable.
+- framing del proyecto entendido por todo el equipo
+- riesgos e incógnitas iniciales explicitados
+- contexto suficiente para que `design-research` arranque sin depender de conversaciones orales
+- decisiones del kickoff capturadas y separadas de las preguntas aún abiertas
 
 ---
 
 ## Criterio de cierre de la subfase
 
 Onboarding & Kickoff está cerrada cuando:
-- hubo framing suficiente para preparar el kickoff
-- el kickoff tuvo agenda y preguntas claras
-- las decisiones, incertidumbres y riesgos fueron capturados
-- `docs/PROJECT-SUMMARY.md` y `management/RISKS.md` reflejan mejor el proyecto real
-- `design-research` puede empezar sin depender de contexto oral disperso
+- `product/artifacts/Kick-off-Meeting-Prep.md` existe y contiene: agenda, al menos 5 preguntas estratégicas priorizadas, riesgos a validar y decisiones esperadas durante la reunión
+- `docs/PROJECT-SUMMARY.md` existe y tiene las secciones: Contexto, Problema, Objetivo, Stakeholders, y al menos un campo de Próximo paso recomendado
+- `management/RISKS.md` existe y tiene al menos un riesgo identificado con descripción, impacto estimado y mitigación posible
+- las decisiones tomadas en el kickoff están capturadas explícitamente (en `Kickoff-Closeout-Summary.md` o directamente en `PROJECT-SUMMARY.md`), separadas de las preguntas aún abiertas
+- `design-research` puede iniciarse sin necesidad de recuperar contexto de conversaciones orales o documentos dispersos

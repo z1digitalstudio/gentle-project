@@ -3,6 +3,10 @@
 
 > Esta guía explica cómo recorrer Discovery de punta a punta en este template: qué subfases existen, qué skills las soportan, qué artefactos produce cada una y cuándo se considera cerrada la fase.
 
+## Para quién es esta guía
+
+Esta guía es para los humanos del equipo: Product Managers, Product Designers y Developers. Está pensada para quienes corren o participan del proceso de discovery, y necesitan entender cómo moverse por las subfases, cuándo usar cada skill y qué documentos se esperan como resultado.
+
 ---
 
 ## Objetivo de la fase

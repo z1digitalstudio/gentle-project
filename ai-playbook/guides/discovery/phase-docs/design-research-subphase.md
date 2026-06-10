@@ -68,8 +68,9 @@ La subfase existe para separar:
 ## Criterio de cierre de la subfase
 
 Design Research está cerrada cuando:
-- existe `product/RESEARCH.md`
-- evidencia, señales y supuestos están separados
-- hay oportunidades suficientemente claras para priorizar
-- `docs/PROJECT-SUMMARY.md` quedó actualizado si el framing mejoró
-- `roadmap-definition` puede empezar sin reinventar research
+- `product/RESEARCH.md` existe y contiene secciones diferenciadas para: evidencia, señales de usuario, supuestos, contexto competitivo y oportunidades identificadas
+- `product/RESEARCH.md` tiene al menos 3 insights con la fuente o evidencia asociada (no supuestos sueltos sin respaldo)
+- evidencia, señales y supuestos están etiquetados o separados de manera que cualquier lector pueda distinguirlos sin contexto adicional
+- hay al menos 2 oportunidades de producto identificadas y priorizables para roadmap
+- `docs/PROJECT-SUMMARY.md` refleja el framing actualizado si el research modificó la comprensión del problema
+- `roadmap-definition` puede iniciarse sin necesidad de repetir trabajo de síntesis

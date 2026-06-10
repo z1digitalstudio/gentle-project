@@ -1,12 +1,16 @@
-# AI Playbook
+# 🏠 AI Playbook
 
 Guía humana para entender cómo usar este repo template, sus fases y sus skills.
 
 > Nota: la memoria local del agente (`.engram/`) no forma parte de la template publicada. Cada equipo debería mantener y sincronizar su propia memoria fuera del contenido versionado del repo.
 
+## Para quién es este playbook
+
+Este playbook es para los humanos del equipo: Product Managers, Product Designers y Developers. Está pensado para quienes corren o participan del proceso de discovery y diseño, y quieren entender qué fases existen, qué hacen los skills de IA, qué artefactos producen y cómo navegar el proceso de punta a punta.
+
 ## Fases
 
-### Discovery
+### 1️⃣ Discovery
 
 Documentación principal:
 - [Discovery Phase](/ai-playbook/guides/discovery/README.md)
@@ -25,10 +29,10 @@ Skills core de Discovery:
 - [roadmap-definition](/ai-playbook/guides/discovery/skills-docs/roadmap-definition.md)
 - [scope-definition](/ai-playbook/guides/discovery/skills-docs/scope-definition.md)
 
-### Design
+### 2️⃣ Design
 
 Pendiente de desarrollar.
 
-### Development
+### 3️⃣ Development
 
 Pendiente de desarrollar.

@@ -13,6 +13,10 @@ No existe para producir un `Opportunity Brief` por rutina.
 - cuando no existe un brief usable
 - cuando el brief existente es débil, viejo o contradictorio
 
+## Cuándo NO usarla
+
+Si ya existe un `Opportunity Brief` claro y vigente, **no ejecutar esta skill**. El framing ya está consolidado — ir directo a `kickoff-prep`.
+
 ## Inputs típicos
 
 - sales notes

@@ -65,8 +65,10 @@ Esta subfase cierra Discovery. Su trabajo es hacer visible:
 ## Criterio de cierre de la subfase
 
 Scope Definition está cerrada cuando:
-- existen `product/PRD.md` y `product/USER-STORIES.md`
-- el MVP está claramente acotado
-- los `non-goals` son visibles
-- diseño y desarrollo pueden empezar con mucha menos ambigüedad
-- Discovery puede dar paso a diseño, especificación o desarrollo
+- `product/PRD.md` existe y contiene las secciones: Contexto, Problema, Objetivo, Alcance MVP, Non-goals y Criterios de éxito
+- `product/USER-STORIES.md` existe y tiene al menos una historia por flujo principal, cada una con el formato "Como [rol], quiero [acción], para [objetivo]"
+- los `non-goals` están listados explícitamente en el PRD —no ausentes por silencio
+- cada historia de usuario tiene criterios de aceptación definidos, o una nota que indica que se definirán en la fase de diseño
+- las dudas abiertas críticas están registradas en `product/artifacts/Open-Product-Questions.md` o en una sección dedicada del PRD —ninguna ambigüedad queda escondida
+- `management/DECISIONS.md` refleja las decisiones de alcance tomadas durante esta subfase
+- diseño y desarrollo pueden iniciar sin necesidad de revisar los outputs de Discovery para entender qué construir
