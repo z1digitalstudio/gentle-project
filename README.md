@@ -31,6 +31,3 @@ design/          Artefactos de diseño
 | Design | En construcción |
 | Development | En construcción |
 
-## Nota sobre memoria del agente
-
-La carpeta `.engram/` contiene memoria local del agente de IA. No forma parte del template publicado — cada equipo mantiene su propia memoria fuera del contenido versionado del repo.
