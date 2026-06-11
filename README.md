@@ -6,7 +6,7 @@ Está pensada para proyectos digitales en los que un equipo humano — PMs, dise
 
 ## Para quién es esto
 
-Product Managers, Product Designers y Developers que quieren un punto de partida estructurado para trabajar con IA en proyectos de producto — sin improvisar el proceso en cada proyecto nuevo.
+*Product Managers*, *Product Designers* y *Developers* que quieren un punto de partida estructurado para trabajar con IA en proyectos de producto — sin improvisar el proceso en cada proyecto nuevo.
 
 ## Qué incluye
 
